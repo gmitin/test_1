@@ -1,57 +1,54 @@
-'use strict';
 
-var namber = 5;
-var string = "Hello!";
-var sym = Symbol();
-var boolean = true;
-null;
-undefined;
-var obj = {};
 
-console.log(4/0);
-console.log('string'*9);
-
-let persone = {
-    name: "John",
-    age: 25,
-    isMarried: false
+if (num < 49) {
+    console.log('Неверно!')
+    
+} else if (num > 100) {
+    console.log("Много!")
+    
+} else {
+    console.log('Верно!')
+    
 };
 
-console.log(persone["name"]);
+(num == 50) ? console.log('Верно!') : console.log('Неверно!');
 
-let arr = ['plum.png','orange.jpg','apple.bmp'];
-console.log(arr[0]);
-
-// alert("Hello world");
-
-// let answer = confirm("Are you here?");
-// console.log(answer);
-
-// let answer = +prompt("Есть ли вам 18?", "Да");
-// console.log(typeof(answer));
-
-// console.log("arr" + " - object");
-// console.log(4 + " - object");
-
-let incr = 10,
-    deckr = 10;
-
-console.log(incr++);
-console.log(deckr--);
-
-console.log(5%2);
-console.log("2" === 2);
-
-let isChecked = false,
-    isClose = false;
-
-console.log(isChecked || !isClose);
+switch (num) {
+    case num < 49:
+        console.log('Неверно!');
+        break;
+    case num > 100:
+        console.log("Много!");
+        break;
+    case num > 80:
+        console.log("Все еще много!");
+        break;
+    case 50:
+        console.log("Верно!");
+        break;
+    default:
+        console.log("Что-то пошло не так!");
+        break;
+}
 
 
+let num = 50;
+// while (num < 55) {
+//     console.log(num);
+//     num++;
+    
+// }
 
+do {
+    console.log(num);
+    num++;
+}
+while (num < 55);
 
-
-
-
-
-
+for (let i = 1; i < 8; i++) {
+    if (i == 6) {
+        continue
+    }
+    console.log(i)
+    
+}
