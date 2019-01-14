@@ -1,149 +1,207 @@
 
 
-// // // if (num < 49) {
-// // //     console.log('Неверно!')
+// // // // if (num < 49) {
+// // // //     console.log('Неверно!')
     
-// // // } else if (num > 100) {
-// // //     console.log("Много!")
+// // // // } else if (num > 100) {
+// // // //     console.log("Много!")
     
-// // // } else {
-// // //     console.log('Верно!')
+// // // // } else {
+// // // //     console.log('Верно!')
     
-// // // };
+// // // // };
 
-// // // (num == 50) ? console.log('Верно!') : console.log('Неверно!');
+// // // // (num == 50) ? console.log('Верно!') : console.log('Неверно!');
 
-// // // switch (num) {
-// // //     case num < 49:
-// // //         console.log('Неверно!');
-// // //         break;
-// // //     case num > 100:
-// // //         console.log("Много!");
-// // //         break;
-// // //     case num > 80:
-// // //         console.log("Все еще много!");
-// // //         break;
-// // //     case 50:
-// // //         console.log("Верно!");
-// // //         break;
-// // //     default:
-// // //         console.log("Что-то пошло не так!");
-// // //         break;
-// // // }
+// // // // switch (num) {
+// // // //     case num < 49:
+// // // //         console.log('Неверно!');
+// // // //         break;
+// // // //     case num > 100:
+// // // //         console.log("Много!");
+// // // //         break;
+// // // //     case num > 80:
+// // // //         console.log("Все еще много!");
+// // // //         break;
+// // // //     case 50:
+// // // //         console.log("Верно!");
+// // // //         break;
+// // // //     default:
+// // // //         console.log("Что-то пошло не так!");
+// // // //         break;
+// // // // }
 
 
-// // // let num = 50;
-// // // // while (num < 55) {
+// // // // let num = 50;
+// // // // // while (num < 55) {
+// // // // //     console.log(num);
+// // // // //     num++;
+    
+// // // // // }
+
+// // // // do {
 // // // //     console.log(num);
 // // // //     num++;
+// // // // }
+// // // // while (num < 55);
+
+// // // // for (let i = 1; i < 8; i++) {
+// // // //     if (i == 6) {
+// // // //         continue
+// // // //     }
+// // // //     console.log(i)
     
 // // // // }
 
-// // // do {
-// // //     console.log(num);
-// // //     num++;
-// // // }
-// // // while (num < 55);
-
-// // // for (let i = 1; i < 8; i++) {
-// // //     if (i == 6) {
-// // //         continue
-// // //     }
-// // //     console.log(i)
+// // // // let num = 20;
+// // // // function showFirstMessage(text) {
+// // // //     alert (text);
+// // // //     let num = 10;
+// // // //     console.log(num);
     
+// // // // }
+
+// // // // showFirstMessage("Hello world!");
+// // // // console.log(num);
+
+
+// // // // let calc = function (a,b) {
+// // // //     return (a + b);
+// // // // }
+
+// // // let calc = (a,b) => a+b
+
+// // // console.log(calc(3,4));
+
+// // // console.log(calc(8,4));
+
+// // // function retVar() {
+// // //     let num = 50;
+// // //     return num;
 // // // }
 
-// // // let num = 20;
-// // // function showFirstMessage(text) {
-// // //     alert (text);
-// // //     let num = 10;
-// // //     console.log(num);
-    
-// // // }
-
-// // // showFirstMessage("Hello world!");
-// // // console.log(num);
+// // // let anotherNum = retVar();
+// // // console.log(anotherNum);
 
 
-// // // let calc = function (a,b) {
-// // //     return (a + b);
-// // // }
+// // // let str = "test";
+// // // console.log(str.length);
 
-// // let calc = (a,b) => a+b
+// // // console.log(str.toUpperCase());
+// // // console.log(str.toLowerCase());
 
-// // console.log(calc(3,4));
+// // // let twelve = "12.2px";
 
-// // console.log(calc(8,4));
+// // // // console.log(Math.round(twelve));
 
-// // function retVar() {
-// //     let num = 50;
-// //     return num;
+// // // console.log(parseInt(twelve));
+// // // console.log(parseFloat(twelve));
+
+
+// // function first() {
+// //     // что-то делаем
+// //     setTimeout (function () {
+// //         console.log(1);
+// //     }, 500);
 // // }
 
-// // let anotherNum = retVar();
-// // console.log(anotherNum);
+// // function second() {
+// //     console.log(2);
+    
+// // }
 
+// // first();
+// // second();
 
-// // let str = "test";
-// // console.log(str.length);
+// // function learnJS(lang, callback) {
+// //     console.log("Я учу " + lang);
+// //     callback();
+// // }
 
-// // console.log(str.toUpperCase());
-// // console.log(str.toLowerCase());
+// // function done() {
+// //     console.log("Я прошел третий урок")
+// // }
 
-// // let twelve = "12.2px";
+// // learnJS("Javascript", done);
 
-// // // console.log(Math.round(twelve));
+// let options = {
+//     width: 1024,
+//     height: 1024,
+//     name: "test"
+// };
 
-// // console.log(parseInt(twelve));
-// // console.log(parseFloat(twelve));
+// console.log(options.name);
+// options.bool = false;
+// options.colors = {
+//     border: "black",
+//     bg: "red"
+// };
 
+// delete options.bool;
 
-// function first() {
-//     // что-то делаем
-//     setTimeout (function () {
-//         console.log(1);
-//     }, 500);
-// }
+// console.log(options);
 
-// function second() {
-//     console.log(2);
+// for (let key in options) {
+//     console.log('Свойство ' + key + ' имеет значение ' + options[key]);
     
 // }
 
-// first();
-// second();
+// console.log(Object.keys(options).length);
 
-// function learnJS(lang, callback) {
-//     console.log("Я учу " + lang);
-//     callback();
-// }
+// // let arr = ["first", 2, 3, "four", 5];
 
-// function done() {
-//     console.log("Я прошел третий урок")
-// }
 
-// learnJS("Javascript", done);
+// // // for (let i = 0; i < arr.length; i++) {
+// // //     console.log(arr[i]);
+// // // }
 
-let options = {
-    width: 1024,
-    height: 1024,
-    name: "test"
-};
+// // arr.forEach(function (item, i, mass) {
+// //     console.log(i + ': ' + item + " (массив: " + mass + ')');
+// // });
 
-console.log(options.name);
-options.bool = false;
-options.colors = {
-    border: "black",
-    bg: "red"
-};
+// // console.log(arr);
 
-delete options.bool;
+// // let mass = [1, 3, 4, 6, 7];
 
-console.log(options);
-
-for (let key in options) {
-    console.log('Свойство ' + key + ' имеет значение ' + options[key]);
+// // for (let key of mass) {
+// //     console.log(key);
     
+// // }
+
+
+// let ans = prompt("", ""),
+//     arr = [];
+
+// arr = ans.split(',');
+// console.log(arr);
+
+
+// let arr = ["aawe", 'zzz', 'pp', 'rqa'],
+//     i = arr.join(', ');
+
+// console.log(i);
+
+
+let arr = [1,15,4],
+    i = arr.sort(compareNum);
+
+function compareNum(a,b) {
+    return a-b;
 }
 
-console.log(Object.keys(options).length);
+console.log(arr);
+
+let soldier = {
+    health: 400,
+    armor: 100
+};
+
+let john = {
+    health: 100
+};
+
+john.__proto__ = soldier;
+
+console.log(john);
+console.log(john.armor);
+
